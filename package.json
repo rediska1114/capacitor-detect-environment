@@ -1,6 +1,6 @@
 {
   "name": "capacitor-detect-environment",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Plugin for determining the current environment",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -34,7 +34,7 @@
   },
   "peerDependencies": {
     "@angular/core": ">=10.0.0",
-    "@capacitor/core": "^2.4.7",
+    "@capacitor/core": "^2.4.0",
     "rxjs": ">=6.5.3"
   },
   "files": [
@@ -51,9 +51,6 @@
   "capacitor": {
     "ios": {
       "src": "ios"
-    },
-    "android": {
-      "src": "android"
     }
   },
   "prettier": "@ionic/prettier-config",
