@@ -4,6 +4,12 @@ declare module '@capacitor/core' {
   }
 }
 
+export type ReturnValue = { value: boolean };
 export interface DetectEnvironmentPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  isDebug(): Promise<ReturnValue>;
+  isTestFlight(): Promise<ReturnValue>;
+  isAdHoc(): Promise<ReturnValue>;
+  isSimulator(): Promise<ReturnValue>;
+  isAppStore(): Promise<ReturnValue>;
+  isSandbox(): Promise<ReturnValue>;
 }
