@@ -1,4 +1,4 @@
-# Capacitor detect environment plugin
+# Capacitor detect environment plugin [![.github/workflows/github-actions.yml](https://github.com/rediska1114/capacitor-detect-environment/actions/workflows/github-actions.yml/badge.svg?branch=master)](https://github.com/rediska1114/capacitor-detect-environment/actions/workflows/github-actions.yml)
 
 Plugin for determining the current environment
 
