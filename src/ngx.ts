@@ -4,8 +4,8 @@ import { DetectEnvironmentPlugin, ReturnValue } from './definitions';
 
 const CDetectEnv = Plugins.DetectEnvironment as DetectEnvironmentPlugin;
 
-function wrapMethod(f: () => Promise<ReturnValue>): Promise<boolean> {
-  return f().then(v => v.value);
+function wrapMethod(f: () => Promise<ReturnValue>): () => Promise<boolean> {
+  return () => f().then(v => v.value);
 }
 
 @Injectable()
