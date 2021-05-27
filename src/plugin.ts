@@ -1,4 +1,3 @@
-import { Injectable } from '@angular/core';
 import { Plugins } from '@capacitor/core';
 import { DetectEnvironmentPlugin, ReturnValue } from './definitions';
 
@@ -8,7 +7,6 @@ function wrapMethod(f: () => Promise<ReturnValue>): () => Promise<boolean> {
   return () => f().then(v => v.value);
 }
 
-@Injectable()
 export class DetectEnvironment {
   isDebug = wrapMethod(CDetectEnv.isDebug);
   isTestFlight = wrapMethod(CDetectEnv.isTestFlight);
