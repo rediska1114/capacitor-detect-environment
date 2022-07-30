@@ -1,5 +1,3 @@
-
-  <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.rediska1114.plugins.capacitor-detect-environment.capacitordetectenvironment">
-  </manifest>
-  
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rediska1114.plugins.detectenvironment">
+</manifest>

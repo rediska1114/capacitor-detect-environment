@@ -1,10 +1,5 @@
-declare module '@capacitor/core' {
-  interface PluginRegistry {
-    DetectEnvironment: DetectEnvironmentPlugin;
-  }
-}
-
 export type ReturnValue = { value: boolean };
+
 export interface DetectEnvironmentPlugin {
   isDebug(): Promise<ReturnValue>;
   isTestFlight(): Promise<ReturnValue>;
