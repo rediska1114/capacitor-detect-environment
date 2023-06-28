@@ -51,6 +51,9 @@ export class ApiService {
 
 ```
 
+## BREAKING CHANGES in 2.x.x version
+- Added support for Capacitor 5 and removed compatibility with Capacitor 3
+
 ## BREAKING CHANGES in 1.x.x version
 
 - Added full support for Capacitor 3 and removed compatibility with Capacitor 2

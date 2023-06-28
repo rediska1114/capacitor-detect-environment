@@ -1,6 +1,6 @@
 {
   "name": "capacitor-detect-environment",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Detect Environment plugin for capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,14 +13,14 @@
     "ios/Plugin/",
     "CapacitorDetectEnvironment.podspec"
   ],
-  "author": "rediska1114 (rediska1114@gmail.com)",
+  "author": "rediska1114 <rediska1114@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rediska1114/capacitor-detect-environment.git.git"
+    "url": "git+https://github.com/rediska1114/capacitor-detect-environment.git"
   },
   "bugs": {
-    "url": "https://github.com/rediska1114/capacitor-detect-environment.git/issues"
+    "url": "https://github.com/rediska1114/capacitor-detect-environment/issues"
   },
   "keywords": [
     "capacitor",
@@ -43,10 +43,10 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^3.0.0",
-    "@capacitor/core": "^3.0.0",
+    "@capacitor/android": "^5.0.5",
+    "@capacitor/core": "^5.0.5",
     "@capacitor/docgen": "^0.0.18",
-    "@capacitor/ios": "^3.0.0",
+    "@capacitor/ios": "^5.0.5",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
@@ -59,7 +59,7 @@
     "typescript": "~4.0.3"
   },
   "peerDependencies": {
-    "@capacitor/core": "^3.0.0"
+    "@capacitor/core": "^5.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
@@ -69,9 +69,6 @@
   "capacitor": {
     "ios": {
       "src": "ios"
-    },
-    "android": {
-      "src": "android"
     }
   }
 }
